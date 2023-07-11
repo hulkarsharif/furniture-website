@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content {
+    max-width: 1600px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    background-color: cadetblue;
+}
+
+.navigation {
+    width: 1296px;
+    height: 30px;
+    background-color: bisque;
+}
+
+a {
+    color: #1d263a;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+ul,
+li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.logo-white {
+    margin-right: 354px;
+}
