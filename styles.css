@@ -15,6 +15,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* body {
+    font-family: "MazzardL", sans-serif;
+} */
 .content {
     max-width: 1600px;
     padding-left: 60px;
@@ -59,7 +62,7 @@ li {
     /* height: 676px; */
     /* width: 100%; */
     margin-top: 40px;
-    background-color: #fae2da;
+    background-color: #a9219b;
     border-radius: 30px;
     display: flex;
 }
@@ -89,7 +92,7 @@ li {
 .hero-section__right {
     width: 660px;
     display: inline-block;
-
+    background-color: chocolate;
     position: absolute;
     top: 229px;
     right: 77px;
@@ -98,14 +101,13 @@ li {
 .left .right {
     display: inline-block;
 }
-h2 {
+
+.main-text {
+    color: #ff794d;
     font-size: 13px;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 6px;
     margin-left: 80px;
-
-    color: #ff794d;
+    margin-bottom: 34px;
 }
 
 .first {
@@ -142,9 +144,77 @@ h3 {
 }
 
 /*Feature section*/
-.feature-content {
-    width: 1296px;
-    height: 204px;
-    padding-left: 152px;
-    background-color: dimgray;
+.header-bottom {
+    /* width: 1600px;
+    padding-top: 137px; */
+    /* background-color: rgb(105, 105, 120); */
+    position: absolute;
+    top: 800px;
+    margin-left: 152px;
+}
+.header-word {
+    color: var(--text-color, #1d263a);
+    margin-left: 120px;
+    margin-right: 61px;
+    font-size: 15px;
+
+    font-weight: 400;
+    line-height: 28px;
+}
+.text-1 {
+    color: var(--text-color, #1d263a);
+    bold: 24px;
+    width: 260px;
+    font-size: 24px;
+    margin-right: 40px;
+    margin-left: 120px;
+    font-weight: 600;
+    line-height: 32px;
+}
+#zap {
+    background-color: #fae2da;
+}
+#headphone {
+    background-color: #ebf5ff;
+}
+#heart {
+    background-color: #096245;
+}
+.one,
+.two,
+.three {
+    position: relative;
+    width: 260px;
+}
+
+#heart,
+#zap,
+#headphone {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* #heart {
+    margin-left: 20px;
+}
+#zap {
+    margin-left: 25px;
+} */
+.icon {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-bottom div {
+    display: inline-block;
+    vertical-align: top;
+    width: calc((100% -120px) / 3);
+}
+.header-bottom .one,
+.two {
+    margin-right: 90px;
 }
