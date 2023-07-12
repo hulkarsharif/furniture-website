@@ -1,3 +1,15 @@
+@font-face {
+    font-family: MazzardL;
+    src: url(./fonts/MazzardL-Regular.otf) format (truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: MazzardL;
+    src: url(./fonts/MazzardL-SemiBold.otf) format (truetype);
+    font-weight: 600;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -8,13 +20,17 @@
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 40px;
+
     background-color: cadetblue;
 }
 
 .navigation {
     width: 1296px;
     height: 30px;
-    background-color: bisque;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+
+    background-color: rgb(167, 101, 19);
 }
 
 a {
@@ -32,4 +48,103 @@ li {
 
 .logo-white {
     margin-right: 354px;
+}
+
+.nav-sec {
+    margin-left: 252px;
+}
+/*Hero section*/
+
+.hero-section__container {
+    /* height: 676px; */
+    /* width: 100%; */
+    margin-top: 40px;
+    background-color: #fae2da;
+    border-radius: 30px;
+    display: flex;
+}
+.hero-section__left {
+    position: relative;
+}
+/* .hero-section__left {
+    display: inline-block;
+} */
+.circle {
+    position: absolute;
+    top: 146px;
+    left: 249px;
+    bottom: 217px;
+    /* / padding-right: 158px; */
+    height: 313px;
+    width: auto;
+}
+.chair {
+    position: absolute;
+    top: 75px;
+    left: 90px;
+    right: 953px;
+    bottom: 76px;
+    height: 525px;
+}
+.hero-section__right {
+    width: 660px;
+    display: inline-block;
+
+    position: absolute;
+    top: 229px;
+    right: 77px;
+    left: 642px;
+}
+.left .right {
+    display: inline-block;
+}
+h2 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 6px;
+    margin-left: 80px;
+
+    color: #ff794d;
+}
+
+.first {
+    font-size: 60px;
+    font-weight: 600px;
+    line-height: 66px;
+    margin-top: 34px;
+    margin-bottom: 27px;
+    color: #1d263a;
+    margin-left: 80px;
+}
+.last {
+    font-size: 15px;
+    width: 495px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 58px;
+    margin-top: 58px;
+    margin-left: 80px;
+}
+h3 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-left: 80px;
+}
+.line {
+    display: inline-block;
+    padding-right: 25px;
+    margin-left: 80px;
+}
+
+/*Feature section*/
+.feature-content {
+    width: 1296px;
+    height: 204px;
+    padding-left: 152px;
+    background-color: dimgray;
 }
