@@ -59,8 +59,8 @@ li {
 /*Hero section*/
 
 .hero-section__container {
-    /* height: 676px; */
-    /* width: 100%; */
+    height: 676px;
+    width: 100%;
     margin-top: 40px;
     background-color: #a9219b;
     border-radius: 30px;
@@ -148,8 +148,8 @@ h3 {
     /* width: 1600px;
     padding-top: 137px; */
     /* background-color: rgb(105, 105, 120); */
-    position: absolute;
-    top: 800px;
+    position: relative;
+
     margin-left: 152px;
 }
 .header-word {
@@ -217,4 +217,44 @@ h3 {
 .header-bottom .one,
 .two {
     margin-right: 90px;
+}
+
+/*design section_____________________________ */
+.design-container {
+    width: 1600px;
+    height: 959px;
+}
+
+.design-text {
+    font-size: 42px;
+    margin-left: 152px;
+    font-weight: 600;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 557px;
+}
+.arrow {
+    margin-left: 20px;
+
+    display: inline-block;
+}
+
+.container-inner {
+    margin-top: 50px;
+    width: 100%;
+}
+.photo {
+    padding-left: 150px;
+    padding-right: 100px;
+}
+.light,
+.dark,
+.couch {
+    display: inline-block;
+    margin-top: 46px;
+    border-radius: 15px;
+    height: 682px;
+    width: calc((100% - 80px) / 3);
+    width: 400px;
+    object-fit: cover;
 }
