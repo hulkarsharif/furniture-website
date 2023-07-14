@@ -370,3 +370,93 @@ h3 {
 }
 
 /*Comment section______________________*/
+
+.testimonials-section {
+    position: relative;
+    top: 64px;
+}
+.testimonials-left {
+    background-color: rgba(255, 121, 77, 1);
+    height: 758px;
+    /* padding-left: 152px; */
+
+    width: 50%;
+}
+.testimonials-section p:first-child {
+    color: var(--color-4, #fff);
+
+    margin-bottom: 62px;
+    padding-top: 227px;
+    font-size: 32px;
+    padding-left: 152px;
+    font-weight: 600;
+    line-height: 50.4px;
+    letter-spacing: -1px;
+}
+.testimonials-left span {
+    color: var(--color-4, #fff);
+    padding-left: 18px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.3px;
+}
+.testimonials-left p:last-child {
+    color: var(--color-4, #fff);
+
+    padding-left: 150px;
+    padding-top: 5px;
+}
+.white-line {
+    width: 30px;
+    height: 4px;
+    margin-left: 152px;
+    color: #000;
+}
+.testimonials-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+.testimonials-image-box {
+    display: inline-block;
+    vertical-align: top;
+    height: 758px;
+    width: 100%;
+    position: relative;
+}
+.coffee-img {
+    object-fit: cover;
+    width: 800px;
+    height: 758px;
+}
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: transparent;
+}
+
+.play-icon {
+    height: 30px;
+    width: 30px;
+    transition-property: width, higtht;
+    transition-duration: 1s;
+}
+
+.play-icon:hover {
+    height: 46px;
+    width: 46px;
+}
+/*Subscribe section _________*/
+
+.emailInput {
+    width: 604px;
+    height: 70px;
+}
