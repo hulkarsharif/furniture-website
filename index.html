@@ -3,305 +3,372 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Furniture website</title>
+        <title>Whiter Furniture Shop</title>
+        <link rel="stylesheet" href="./base.css" />
         <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
-        <section>
-            <section class="content">
-                <nav class="navigation">
-                    <ul>
-                        <img
-                            src=".//images/logo-white.jpg"
-                            alt=""
-                            class="logo-white"
-                        />
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Rooms</a></li>
-                        <li><a href="">Inspiration</a></li>
-                        <li><a href="">Support</a></li>
-                        <li><a href="" class="nav-sec">Sign in</a></li>
-                    </ul>
-                </nav>
+        <header id="header">
+            <nav class="navigation container">
+                <img
+                    class="logo"
+                    src="./images/logo-white.jpg"
+                    alt="Whiter logo"
+                />
 
-                <div class="hero-section__container">
-                    <div class="left">
-                        <div class="hero-section__left">
+                <ul class="navigation__links">
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Rooms</a></li>
+                    <li><a href="">Inspiration</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+
+                <a class="navigation__action" href="">Sign in</a>
+            </nav>
+        </header>
+
+        <section id="hero-section">
+            <div class="hero-section container">
+                <div class="hero-section__card">
+                    <div class="hero-section__left">
+                        <img
+                            class="cicle"
+                            src="./images/green-circle.png"
+                            alt="Circle shape"
+                        />
+                        <img
+                            class="chair"
+                            src="./images/hero.png"
+                            alt="Chair"
+                        />
+                    </div>
+
+                    <div class="hero-section__right">
+                        <span class="uppercase-text-2 text-top"
+                            >QUALITY DESIGN FOR ALL</span
+                        >
+                        <h1 class="heading-1">
+                            Bring back the classic look by using Whiter. Easy
+                            home delivery!
+                        </h1>
+                        <p class="text-md">
+                            Rediscover the timeless allure of the past as Whiter
+                            effortlessly revives the beloved vintage aesthetic.
+                        </p>
+                        <div class="orange-line"></div>
+                        <span class="uppercase-text-2"
+                            >EXPLORE OUR PRODUCTS</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features-section">
+            <div class="features-section container">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <div class="ellipse shape-1">
                             <img
-                                src="./images/green-circle.png"
-                                alt=""
-                                class="circle"
+                                class="icon"
+                                src="./images/heart 1.png"
+                                alt="heart shape"
                             />
-                            <img src="./images/hero.png" alt="" class="chair" />
                         </div>
                     </div>
-                    <div class="right">
-                        <div class="hero-section__right">
-                            <p class="main-text">QUALITY DESIGN FOR ALL</p>
-                            <p class="first">
-                                Bring back the classic look by using Whiter.
-                                Easy home delivery!
-                            </p>
-                            <p class="last">
-                                Rediscover the timeless allure of the past as
-                                Whiter effortlessly revives the beloved vintage
-                                aesthetic.
-                            </p>
-                            <img
-                                src="./images/orange-line.png"
-                                alt=""
-                                class="line"
-                            />
-                            <h3>EXPLORE OUR PRODUCTS</h3>
-                        </div>
+                    <div class="feature-text">
+                        <h4 class="heading-6">Best quality</h4>
+                        <p class="text-md">
+                            Uncompromising excellence delivered in every product
+                            and experience
+                        </p>
                     </div>
                 </div>
 
-                <section class="header-bottom">
-                    <div class="one">
-                        <div id="heart">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <div class="ellipse shape-2">
                             <img
-                                src="./images/heart 1.png"
-                                alt=""
                                 class="icon"
+                                src="./images/zap 1.png"
+                                alt="heart shape"
                             />
                         </div>
-                        <div class="text">
-                            <h2 class="text-1">Best quality</h2>
-                            <p class="header-word">
-                                Uncompromising excellence delivered in every
-                                product and experience
-                            </p>
-                        </div>
                     </div>
-                    <div class="two">
-                        <div id="zap">
-                            <img src="./images/zap 1.png" alt="" class="icon" />
-                        </div>
-                        <div class="text">
-                            <h2 class="text-1">Fastest delivery</h2>
-                            <p class="header-word">
-                                Swift and efficient shipping to bring your order
-                                to you promptly.
-                            </p>
-                        </div>
+                    <div class="feature-text">
+                        <h4 class="heading-6">Fastest delivery</h4>
+                        <p class="text-md">
+                            Swift and efficient shipping to bring your order to
+                            you promptly.
+                        </p>
                     </div>
-                    <div class="three">
-                        <div id="headphone">
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">
+                        <div class="ellipse shape-3">
                             <img
+                                class="icon"
                                 src="./images/headphones 1.png"
-                                alt=""
-                                class="icon"
+                                alt="heart shape"
                             />
                         </div>
-                        <div class="text">
-                            <h2 class="text-1">Great support</h2>
-                            <p class="header-word">
-                                Exceptional customer service to assist and guide
-                                you effectively
-                            </p>
-                        </div>
                     </div>
-                </section>
-            </section>
-        </section>
-
-        <section id="design-container">
-            <div class="container-inner">
-                <h2 class="design-text">Explore our exclusive design.</h2>
-                <img src="./images/arrow-left2.jpg" alt="" class="arrow" />
-                <img src="./images/arrow-right1.jpg" alt="" class="arrow" />
-            </div>
-            <div class="photo">
-                <img src="./images/chair-light.jpeg" alt="" class="light" />
-
-                <img src="./images/chair-dark.jpeg" alt="" class="dark" />
-
-                <img src="./images/couch.jpeg" alt="" class="couch" />
-            </div>
-
-            <!-- <div id="price">
-                    $271
-                    <div class="BG">White Phoenix</div>
-                </div> -->
-        </section>
-
-        <section id="process-container">
-            <h3 class="process-section__content">OUR WORKING PROCESS</h3>
-            <div class="devider-second">
-                <p class="inline-block num">01.</p>
-                <p class="inline-block first-progress">
-                    Discuss the concept with us.
-                </p>
-                <p class="inline-block second-progress">
-                    Engage in an insightful conversation with our team to
-                    explore your project's vision, goals, and desired outcomes.
-                </p>
-                <a href="" class="progress-link">
-                    <img
-                        src="./images/orange-line.png"
-                        alt=""
-                        class="orange-line"
-                    />Learn More</a
-                >
-            </div>
-            <div class="devider-second">
-                <p class="inline-block num">02.</p>
-                <p class="inline-block first-progress">
-                    Confirm the provided design.
-                </p>
-                <p class="inline-block second-progress">
-                    Once you provide us with the design you envision, our
-                    experienced team will meticulously review and validate every
-                    aspect.
-                </p>
-                <a href="" class="" progress-link>
-                    <img
-                        src="./images/orange-line.png"
-                        alt=""
-                        class="orange-line"
-                    />Learn More</a
-                >
-            </div>
-
-            <div class="devider-second">
-                <p class="inline-block num">03.</p>
-                <p class="inline-block first-progress">
-                    Get delivered the furniture on time.
-                </p>
-
-                <p class="inline-block second-progress">
-                    Our dedicated team prioritizes punctuality and efficient
-                    logistics to ensure that your furniture arrives precisely.
-                </p>
-                <a href="" class="" progress-link>
-                    <img
-                        src="./images/orange-line.png"
-                        alt=""
-                        class="orange-line"
-                    />Learn More</a
-                >
+                    <div class="feature-text">
+                        <h4 class="heading-6">Great support</h4>
+                        <p class="text-md">
+                            Exceptional customer service to assist and guide you
+                            effectively
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="comfort">
-            <div id="comfort-left">
-                <img
-                    src="./images/wife-husband.jpeg"
-                    alt=""
-                    class="comfort-picture"
-                />
+        <section id="designs-section">
+            <div class="designs-section container">
+                <h3 class="heading-3">Explore our exclusive design.</h3>
+                <div class="arrows">
+                    <img
+                        class="arrow-right"
+                        src="./images/arrow-right1.jpg"
+                        alt="arrow right"
+                    />
+                    <img
+                        class="arrow-left"
+                        src="./images/arrow-left2.jpg"
+                        alt="arrow left"
+                    />
+                </div>
 
-                <img
-                    src="./images/green-shape.svg"
-                    alt=""
-                    class="green-shape"
-                />
+                <div class="design-card">
+                    <img
+                        class="design-img chair-light"
+                        src="./images/chair-light.jpeg"
+                        alt="Chair"
+                    />
+                </div>
+
+                <div class="design-card">
+                    <img
+                        class="design-img chair-dark"
+                        src="./images/chair-dark.jpeg"
+                        alt="Chair"
+                    />
+                </div>
+
+                <div class="design-card" id="design-last-card">
+                    <img
+                        class="design-img couch"
+                        src="./images/couch.jpeg"
+                        alt="Couch"
+                    />
+                    <div class="design-inner-card">
+                        <span>$271</span>
+                        <p id="inner-card-text">White Phonix</p>
+                        <img src="./images/arrow-right1.jpg" alt="" />
+                    </div>
+                </div>
             </div>
-            <div>
-                <div class="comfort-right">
-                    <h4>Spend your happy time with full comfort.</h4>
-                    <p>
+        </section>
+
+        <section id="process-section">
+            <div class="process-section container">
+                <h5 class="uppercase-text-1">OUR WORKING PROCESS</h5>
+
+                <div class="process-row">
+                    <div class="number"><p class="num">01.</p></div>
+                    <div class="process-heading">
+                        <h4 class="heading-4">Discuss the concept with us.</h4>
+                    </div>
+                    <div class="process-text">
+                        <p class="text-lg">
+                            Engage in an insightful conversation with our team
+                            to explore your project's vision, goals, and desired
+                            outcomes
+                        </p>
+                    </div>
+                    <div class="process-link">
+                        <div class="orange-line"></div>
+                        <a class="uppercase-text-2" href=""> LEARN MORE</a>
+                    </div>
+                </div>
+
+                <div class="process-row">
+                    <div class="number"><p class="num">02.</p></div>
+                    <div class="process-heading">
+                        <h4 class="heading-4">Confirm the provided design.</h4>
+                    </div>
+                    <div class="process-text">
+                        <p class="text-lg">
+                            Once you provide us with the design you envision,
+                            our experienced team will meticulously review and
+                            validate every aspect.
+                        </p>
+                    </div>
+                    <div class="process-link">
+                        <div class="orange-line"></div>
+                        <a class="uppercase-text-2" href=""> LEARN MORE</a>
+                    </div>
+                </div>
+
+                <div class="process-row">
+                    <div class="number"><p class="num">03.</p></div>
+                    <div class="process-heading">
+                        <h4 class="heading-4">
+                            Get delivered the furniture on time.
+                        </h4>
+                    </div>
+                    <div class="process-text">
+                        <p class="text-lg">
+                            Our dedicated team prioritizes punctuality and
+                            efficient logistics to ensure that your furniture
+                            arrives precisely.
+                        </p>
+                    </div>
+                    <div class="process-link last">
+                        <div class="orange-line"></div>
+                        <a class="uppercase-text-2" href=""> LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-section">
+            <div class="about-section container">
+                <div class="about-section__left">
+                    <div class="img-box">
+                        <img
+                            class="about-section__img"
+                            src="./images/wife-husband.jpeg"
+                            alt="Wife and husband"
+                        />
+                        <img
+                            class="about-section__shape"
+                            src="./images/shape-2.svg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+
+                <div class="about-section__right">
+                    <h3 class="heading-3">
+                        Spend your happy time with full comfort.
+                    </h3>
+                    <p class="text-lg">
                         Embrace blissful comfort: Revel in delightful moments,
                         surrounded by unmatched tranquility and exquisite
                         relaxation.
                     </p>
-                    <a href="" class="progress-link1">
-                        <img
-                            src="./images/orange-line.png"
-                            alt=""
-                            class="orange-line1"
-                        />EXPLORE OUR PRODUCTS</a
-                    >
+                    <div class="orange-line"></div>
+                    <span class="uppercase-text-2">EXPLORE OUR PRODUCTS</span>
                 </div>
             </div>
         </section>
 
-        <section class="testimonials-section">
-            <div class="testimonials-left">
-                <p class="testimonial-text">
-                    “It was super easy to share my unique concept. I got exactly
-                    what I ordered. Great service!”
-                </p>
-                <img src="./images/Line 4.png" alt="" class="white-line" />
-                <span>Jenny Wilson</span>
-                <p class="testimonials-name">St. Celina, Delaware></p>
-            </div>
-            <div class="testimonials-right">
-                <div class="testimonials-image-box">
-                    <img
-                        src="./images/lady-drinking-coffee.jpeg"
-                        alt=""
-                        class="coffee-img"
-                    />
-                    <button class="play-btn">
+        <section id="testimonials-section">
+            <div class="testimonials-section container">
+                <div class="testimonials-section__left">
+                    <h3 class="heading-3">
+                        “It was super easy to share my unique concept. I got
+                        exactly what I ordered. Great service!”
+                    </h3>
+                    <div class="white-line"></div>
+                    <span class="testimonials-name">Jenny Wilson</span>
+                    <p class="text-md">St. Celina, Delaware</p>
+                </div>
+
+                <div class="testimonials-section__right">
+                    <div class="testimonials-img-box">
                         <img
-                            src="./images/play 1 (4).jpg"
-                            alt=""
-                            class="play-icon"
+                            class="testimonials-img"
+                            src="./images/lady-drinking-coffee.jpeg"
+                            alt="Jenny Wilson drinking coffee"
                         />
-                    </button>
+                        <button class="play-btn">
+                            <img
+                                class="play-icon"
+                                src="./images/play 1 (4).jpg"
+                                alt="Play icon"
+                            />
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="subscribe">
-            <div class="subscribe-content">
-                <h2 class="heading-three">
-                    Subscribe to our newsletter to get updated
-                </h2>
-                <p>
+
+        <section id="subscribe-section">
+            <div class="subscribe-section container">
+                <h3 class="heading-3">
+                    Subscribe to our <br />newsletter to get updated
+                </h3>
+                <p class="text-lg">
                     Get our latest update on your inbox. With lots of unique
-                    blocks, you can easily build a page without coding. Build
-                    your next consultancy website within few minutes.
+                    blocks, <br />you can easily build a page without coding.
+                    Build your next <br />consultancy website within few
+                    minutes.
                 </p>
-                <div class="email-wrapper">
-                    <label for="emailInput">
-                        <input type="email" placeholder="Enter email address"/
-                        ></label
-                    >
-                    <button type="subscribe-btn">Subscribe</button>
-                </div>
+                <label for="emailInput"
+                    ><input
+                        type="email"
+                        placeholder="Enter email address"
+                        id="emailInput"
+                /></label>
+                <input type="submit" value="Subscribe" id="subscribeInput" />
 
-                <div class="note-wrappers">
-                    <img src="./images/lock 1.jpg" alt="" />
-                    <p>We don’t spam at all, our promise!</p>
+                <div class="promise-container">
+                    <img
+                        class="lock-img"
+                        src="./images/lock 1.jpg"
+                        alt="lock icon"
+                    />
+                    <p class="text-md">We don’t spam at all, our promise!</p>
                 </div>
             </div>
         </section>
 
-        <footer>
-            <div class="footer-content">
-                <div class="footer-company">
-                    <img
-                        src="./images/logo-white.jpg"
-                        alt=""
-                        class="footer-logo"
-                    />
-                    <p class="footer-text">
-                        We make furniture with love and <br />passions. No
-                        doubt, really.
-                    </p>
-                    <p>© TuranTech Inc.</p>
-                </div>
-                <div class="footer-contact">
-                    <h4 class="name">CONTACT</h4>
-                    <a>62 Orp St, Seattle, USA</a>
-                    <a href="mailto">sales@furnatur.com</a>
-                    <a href="tel:347-567-2828" class="footer__text"
-                        >+1 800 726 915273</a
-                    >
-                </div>
-                <div class="footer__product">
-                    <h4 class="name">PRODUCT</h4>
-                    <a href="">Living Room</a>
-                    <a href="">Bed Room</a>
-                    <a href="">Office Room</a>
-                </div>
-                <div class="footer__about">
-                    <h4 class="name">OUR COMPANY</h4>
-                    <a href="">About Us</a>
-                    <a href="">Service</a>
-                    <a href="">products</a>
+        <footer id="footer">
+            <div class="footer container">
+                <div class="footer__content">
+                    <div class="footer__brand">
+                        <img src="./images/logo-white.jpg" alt="Whiter logo" />
+                        <p class="text-lg">
+                            We make furniture with love and <br />passions. No
+                            doubt, really.
+                        </p>
+                        <p class="text-lg">&copy; TuranTech Inc.</p>
+                    </div>
+
+                    <div class="footer__contact">
+                        <h4 class="footer__heading uppercase-text-2">
+                            CONTACT
+                        </h4>
+                        <p class="text-lg">62 Orp St, Seattle, USA</p>
+                        <a href="mailto: sales@furnatur.com" class="text-lg"
+                            >sales@furnatur.com</a
+                        >
+                        <a href="+1 800 726 915273" class="text-lg"
+                            >+1 800 726 915273</a
+                        >
+                    </div>
+
+                    <div class="footer__product">
+                        <h4 class="footer__heading uppercase-text-2">
+                            PRODUCT
+                        </h4>
+                        <a href="" class="text-lg">Living Room</a>
+                        <a href="" class="text-lg">Bed Room</a>
+                        <a href="" class="text-lg">Office Room</a>
+                    </div>
+
+                    <div class="footer__about-us">
+                        <h4 class="footer__heading uppercase-text-2">
+                            OUR COMPANY
+                        </h4>
+                        <a href="" class="text-lg">About us</a>
+                        <a href="" class="text-lg">Services</a>
+                        <a href="" class="text-lg">Products</a>
+                    </div>
                 </div>
             </div>
         </footer>
