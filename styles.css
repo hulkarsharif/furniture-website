@@ -158,7 +158,6 @@ header {
     /* position: absolute;
     right: 152px; */
     text-align: right;
-    background-color: aquamarine;
 }
 
 /* Hero Section */
@@ -214,7 +213,6 @@ header {
 
 .hero-section__right h1 {
     margin-top: 30px;
-    background-color: burlywood;
 
     margin-bottom: 30px;
 }
@@ -440,10 +438,10 @@ header {
     padding-left: 0;
     padding-top: 0;
 
-    /* width: calc(((416 * 100) / 1600) * 1%);
-    margin-right: calc(((160 * 100) / 1600) * 1%); */
-    width: calc((100% - 80px - 150px - 150px) * 0.4);
-    margin-right: 150px;
+    width: calc(((416 * 100) / 1600) * 1%);
+    margin-right: calc(((160 * 100) / 1600) * 1%);
+    /*width: calc((100% - 80px - 150px - 150px) * 0.4);
+    margin-right: 150px;*/
 }
 .orange-line {
     width: 30px;
@@ -630,7 +628,7 @@ header {
     padding: 24px 48px;
     cursor: pointer;
     height: 70px;
-    width: calc(46% / 3 - 4px);
+    /* width: calc(46% / 3 - 4px); */
     border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -675,7 +673,8 @@ header {
 }
 
 .footer__content > *:not(:last-child) {
-    margin-right: 26px;
+    /* margin-right: 26px; */
+    margin-right: calc(((170 * 100) / 1478) * 1%);
 }
 
 .footer__content > * {
@@ -684,11 +683,13 @@ header {
 }
 
 .footer__content > *:not(:first-child) {
-    width: calc((100% - 78px) * 0.7 / 3);
+    width: calc(((188 * 100) / 1478) * 1%);
+    /* width: calc((100% - 78px) * 0.7 / 3); */
 }
 
 .footer__brand {
-    width: calc((100% - 78px) * 0.3);
+    width: calc(((277 * 100) / 1478) * 1%);
+    /* width: calc((100% - 78px) * 0.3); */
 }
 
 .footer__brand img {
