@@ -1047,7 +1047,7 @@ header {
 
 .design-inner-card {
     padding: 2rem;
-    width: 8rem;
+    width: 80%;
     height: 11.5rem;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 1rem;
@@ -1363,11 +1363,14 @@ header {
     margin-left: 2.4rem;
 }
 /* Footer Section */
+.footer {
+    padding: 0 6rem 6rem;
+}
 
 .footer__content {
     background: var(--color-9, #fae2da);
     border-radius: 3rem;
-    margin: 0 6rem 6rem;
+    /* margin: 0 6rem 6rem; */
     padding: 14rem 9.2rem;
 }
 
