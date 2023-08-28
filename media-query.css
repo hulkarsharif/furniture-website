@@ -2,56 +2,101 @@
     html {
         font-size: 50%;
     }
+
     .navigation,
-    .hero-section,
     .features-section,
     .designs-section,
     .process-section,
     .about-section,
-    .subscribe-section,
-    .footer {
-        padding-left: 7rem;
-        padding-right: 7rem;
-    } /*
+    .subscribe-section {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
     .hero-section,
     .footer {
-        padding: 0 3rem;
-    } */
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+    .hero-section__content,
+    .footer__content {
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+
+    .arrows {
+        right: 8rem;
+    }
 }
 
 @media (max-width: 600px) {
     .navigation,
-    .hero-section,
     .features-section,
     .designs-section,
     .process-section,
     .about-section,
-    /*.subscribe-section*/ {
+    .subscribe-section {
         padding-left: 2.8rem;
         padding-right: 2.8rem;
-        background-color: cornflowerblue;
     }
-    .footer {
+
+    .testimonials-section__left {
         padding-left: 2.8rem;
-        padding-right: 2.6rem;
     }
-    .container {
-        padding-left: 3rem;
-        padding-right: 3rem;
+
+    .arrows {
+        right: 2.8rem;
     }
+
+    .hero-section,
+    .footer {
+        padding-right: 1.4rem;
+        padding-left: 1.4rem;
+    }
+
+    .hero-section__card,
+    .footer__content {
+        padding-right: 2.8rem;
+        padding-left: 2.8rem;
+    }
+
+    .footer {
+        padding-bottom: 2.8rem;
+    }
+
     .navigation__links,
     .navigation__action {
         display: none;
     }
 
-    .hero-section__left,
+    .hero-section__left {
+        display: block;
+        width: 100%;
+        margin-bottom: 3.6rem;
+    }
+
+    .hero-section__left .cicle {
+        top: 5.5rem;
+    }
+
     .hero-section__right {
         display: block;
         width: 100%;
     }
 
-    .hero-section__card {
-        padding: 6rem 6rem;
+    .feature {
+        display: block;
+        width: 100%;
+    }
+
+    .features-section .feature {
+        margin-right: 0rem;
+        text-align: center;
+    }
+
+    .features-section .feature:not(:last-child) {
+        margin-bottom: 4rem;
     }
 
     .feature-icon,
@@ -59,53 +104,50 @@
         display: block;
         margin: 0 auto;
     }
+
     .feature-icon {
         margin-bottom: 3rem;
         /* margin-right: 0;  */
-    }
-    .ellipse {
-        margin-right: 0;
-    }
-    .feature {
-        display: block;
-        width: 100%;
-        margin-bottom: 3rem;
-    }
-
-    .icon {
-        display: block;
-    }
-
-    .heading-2,
-    .text-md {
-        text-align: center;
-        /* margin-bottom: 0.5rem; */
     }
 
     .design-card {
         display: block;
         width: 100%;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
         margin-right: 0;
     }
+
     .designs-section .heading-3 {
         font-size: 3.2rem;
         text-align: center;
     }
+
     .arrows {
         display: none;
     }
-    .designs-section {
+
+    /* .designs-section {
         padding-left: 3rem;
         padding-right: 3rem;
-    }
+    } */
+
     .designs-section .design-card:not(:last-child) {
         margin-right: 0;
     }
-    .process-section {
+
+    /* .process-section {
         padding: 0;
+    } */
+
+    .number,
+    .process-heading,
+    .process-text,
+    .process-link {
+        display: block;
+        width: 100%;
     }
-    .uppercase-text-1,
+
+    /* .uppercase-text-1,
     .process-line,
     .process-heading,
     .uppercase-text,
@@ -116,18 +158,36 @@
         margin-bottom: 1rem;
         margin-right: 0;
         padding: 3rem;
+    } */
+
+    .process-section .uppercase-text-1 {
+        margin-bottom: 0;
+    }
+
+    .process-text,
+    .process-link {
+        margin-bottom: 3.5rem;
+    }
+
+    .number {
+        margin-top: 3.5rem;
+    }
+
+    .number,
+    .process-heading {
+        margin-bottom: 1.6rem;
+    }
+
+    #process-section .process-line:not(:last-child) {
+        margin-bottom: 3.5rem;
+        border-bottom: 0.2rem solid #dfdfdf7c;
     }
 
     .process-line {
         align-items: center;
         display: block;
     }
-    .process-text {
-        width: 100%;
-    }
-    .process-section .uppercase-text-1 {
-        margin-right: 0;
-    }
+
     .about-section__left {
         display: block;
         width: 100%;
@@ -173,7 +233,7 @@
         margin-bottom: 1rem;
     }
 
-    .footer,
+    /* .footer,
     .hero-section {
         padding-left: 1.4rem;
         padding-right: 1.4rem;
@@ -182,7 +242,8 @@
     .hero-section {
         padding-left: 1.6rem;
         padding-right: 1.6rem;
-    }
+    } */
+
     .footer__content > * {
         display: block;
         width: 100%;

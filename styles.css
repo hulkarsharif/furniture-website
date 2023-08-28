@@ -873,11 +873,14 @@ a {
 
 .hero-section__left {
     display: inline-block;
-    vertical-align: top;
-    width: 36.2%;
-    height: 52.5rem;
+    vertical-align: middle;
+    width: calc((100% - 8rem) * 0.4);
     margin-right: 8rem;
     position: relative;
+}
+
+.hero-img-wrapper img {
+    max-width: 100%;
 }
 
 .hero-section__left .cicle {
@@ -890,11 +893,7 @@ a {
 }
 
 .hero-section__left .chair {
-    height: auto;
-    width: 92%;
-    /* position: absolute; */
-    top: 0;
-    left: 0;
+    width: 90%;
     position: relative;
     z-index: 2;
     height: auto;
@@ -902,10 +901,9 @@ a {
 
 .hero-section__right {
     height: max-content;
-    width: calc(100% - 36.2% - 8rem);
+    width: calc((100% - 8rem) * 0.6);
     display: inline-block;
-    vertical-align: top;
-    padding: 6.5rem 0;
+    vertical-align: middle;
 }
 
 .uppercase-text-2.text-top {
@@ -930,11 +928,11 @@ a {
 }
 
 .features-section .feature:not(:last-child) {
-    margin-right: 18rem;
+    margin-right: 8rem;
 }
 
 .feature {
-    width: calc((100% - 36rem) / 3);
+    width: calc((100% - 16rem) / 3);
     display: inline-block;
     vertical-align: top;
 }
@@ -945,35 +943,34 @@ a {
     vertical-align: top;
 }
 .feature-icon {
-    width: calc((100% - 5.6rem) * 0.225);
-
-    margin-right: 5.6rem;
+    width: calc((100% - 3rem) * 0.3);
+    margin-right: 3rem;
 }
 
 .feature-text {
-    width: calc((100% - 5.6rem) * 0.775);
+    width: calc((100% - 3rem) * 0.7);
 }
 
-.ellipse {
+.feature-icon {
     position: relative;
     border-radius: 50%;
     height: 8rem;
     width: 8rem;
 }
 
-.ellipse.shape-1 {
+.ellipse-1 {
     background-color: #d6ebe4;
 }
 
-.ellipse.shape-2 {
+.ellipse-2 {
     background-color: #fae2da;
 }
 
-.ellipse.shape-3 {
+.ellipse-3 {
     background-color: #ebf5ff;
 }
 
-.ellipse .icon {
+.feature-icon .icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -981,7 +978,7 @@ a {
 }
 
 .heading-2 {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 /* Designs Section */
@@ -1093,7 +1090,7 @@ a {
     margin-bottom: 11rem;
 }
 
-.process-row:not(:last-child) {
+.process-line:not(:last-child) {
     margin-bottom: 14rem;
 }
 
@@ -1109,10 +1106,6 @@ a {
 .process-text {
     display: inline-block;
     vertical-align: top;
-}
-
-.process-line {
-    margin-bottom: 17rem;
 }
 
 .process-link {
@@ -1132,7 +1125,7 @@ a {
 .process-heading {
     /* width: calc(((31 * 100) / 16) * 1%); */
     width: calc((100% - 8rem - 15rem - 15rem) * 0.25);
-    /* margin-right: calc(((20 * 100) / 16) * 1%); */
+    margin-right: 15rem;
 }
 
 .process-text {
@@ -1364,7 +1357,7 @@ a {
     margin-left: 2.4rem;
 }
 /* Footer Section */
-#footer {
+.footer {
     padding: 0 6rem 6rem;
 }
 
