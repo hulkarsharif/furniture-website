@@ -2,29 +2,40 @@
     html {
         font-size: 50%;
     }
-    #header,
-    #hero-section,
-    #features-section,
-    #designs-section,
-    #process-section,
-    #about-section,
-    #testimonials-section,
-    #subscribe-section,
-    #footer {
+    .navigation,
+    .hero-section,
+    .features-section,
+    .designs-section,
+    .process-section,
+    .about-section,
+    .subscribe-section,
+    .footer {
         padding-left: 7rem;
         padding-right: 7rem;
-    }
-    #hero-section,
-    #footer {
+    } /*
+    .hero-section,
+    .footer {
         padding: 0 3rem;
-    }
+    } */
 }
 
 @media (max-width: 600px) {
-    #features-section,
-    #designs-section,
-    #process-section,
-    #about-section {
+    .navigation,
+    .hero-section,
+    .features-section,
+    .designs-section,
+    .process-section,
+    .about-section,
+    /*.subscribe-section*/ {
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+        background-color: cornflowerblue;
+    }
+    .footer {
+        padding-left: 2.8rem;
+        padding-right: 2.6rem;
+    }
+    .container {
         padding-left: 3rem;
         padding-right: 3rem;
     }
@@ -42,28 +53,33 @@
     .hero-section__card {
         padding: 6rem 6rem;
     }
-    .feature,
-    .feature-icon {
+
+    .feature-icon,
+    .feature-text {
         display: block;
-        width: 100%;
+        margin: 0 auto;
+    }
+    .feature-icon {
+        margin-bottom: 3rem;
+        /* margin-right: 0;  */
+    }
+    .ellipse {
+        margin-right: 0;
     }
     .feature {
-        margin: 6rem 10rem 5rem;
+        display: block;
+        width: 100%;
+        margin-bottom: 3rem;
     }
 
     .icon {
         display: block;
-        margin: 0;
     }
-    /* .feature-icon {
-        display: block;
-        
-    } */
 
     .heading-2,
     .text-md {
         text-align: center;
-        margin-bottom: 0.5rem;
+        /* margin-bottom: 0.5rem; */
     }
 
     .design-card {
@@ -121,9 +137,9 @@
         width: 100%;
     }
 
-    .about-section {
+    /* .about-section {
         padding: 5rem 3rem;
-    }
+    } */
     .about-section__right {
         display: block;
         width: 100%;
@@ -134,6 +150,7 @@
     .testimonials-section__left {
         display: block;
         width: 100%;
+        padding: 30rem 5rem;
     }
     .testimonials-section__right {
         display: block;
@@ -147,6 +164,7 @@
         top: 50%;
         left: 50%;
     }
+
     #emailInput,
     #subscribeInput {
         display: block;
@@ -155,11 +173,15 @@
         margin-bottom: 1rem;
     }
 
-    .footer {
-        padding: 13rem 4rem;
+    .footer,
+    .hero-section {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
     }
-    .footer__content {
-        padding: 10rem 5rem;
+    .footer__content,
+    .hero-section {
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
     }
     .footer__content > * {
         display: block;

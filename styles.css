@@ -818,7 +818,7 @@ a {
 
 /* Header */
 
-header {
+.navigation {
     padding: 4.1rem 15rem;
 }
 
@@ -944,9 +944,9 @@ header {
     display: inline-block;
     vertical-align: top;
 }
-
 .feature-icon {
     width: calc((100% - 5.6rem) * 0.225);
+
     margin-right: 5.6rem;
 }
 
@@ -981,7 +981,7 @@ header {
 }
 
 .heading-2 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 /* Designs Section */
@@ -1203,17 +1203,18 @@ header {
 /* Testimonials Section */
 
 .testimonials-section {
-    background: var(--color-3, #ff794d);
+    width: 100%;
 }
 
 .testimonials-section__left {
+    background: var(--color-3, #ff794d);
     padding-left: 15.2rem;
     padding-top: 22rem;
     padding-bottom: 22rem;
-    margin-right: 15rem;
+
     display: inline-block;
     vertical-align: top;
-    width: calc(50% - 15rem);
+    width: 50%;
     height: 78rem;
     position: relative;
 }
@@ -1363,12 +1364,13 @@ header {
     margin-left: 2.4rem;
 }
 /* Footer Section */
-.footer {
+#footer {
     padding: 0 6rem 6rem;
 }
 
 .footer__content {
     background: var(--color-9, #fae2da);
+
     border-radius: 3rem;
     /* margin: 0 6rem 6rem; */
     padding: 14rem 9.2rem;
