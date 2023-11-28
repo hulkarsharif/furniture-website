@@ -46,14 +46,26 @@
         right: 2rem;
         top: 5rem;
     }
-    .hamburger-nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: block;
-        width: 100%;
+
+    .mobile-nav ul,
+    li {
+        list-style: none;
+        padding: 0;
+        margin-top: 5rem;
+        text-align: center;
     }
 
+    .mobile-nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        display: block;
+    }
+
+    /* .img.logo {
+        margin-bottom: 5rem;
+    } */
     .testimonials-section__left {
         padding-left: 2.8rem;
     }
